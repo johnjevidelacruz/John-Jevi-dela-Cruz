@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html data-theme="dark" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Zapier API Ingestion: Pagination, Normalization, and Upsert/Dedup at Scale · Case Study · John Jevi dela Cruz</title>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Implemented code-based API ingestion in Zapier for CheckoutChamp and Facebook Ads with looping, pagination, and dedup logic." name="description"/>
+<meta content="index,follow" name="robots"/>
+<link href="https://whisperwindworkspace.github.io/John-Jevi-dela-Cruz/case-data-api-ingestion-normalization.html" rel="canonical"/>
+<link href="assets/images/favicon.ico" rel="icon" type="image/x-icon"/>
+<link href="assets/images/apple-touch-icon.png" rel="apple-touch-icon"/>
+<meta content="Zapier API Ingestion: Pagination, Normalization, and Upsert/Dedup at Scale · Case Study · John Jevi dela Cruz" property="og:title"/>
+<meta content="Implemented code-based API ingestion in Zapier for CheckoutChamp and Facebook Ads with looping, pagination, and dedup logic." property="og:description"/>
+<meta content="article" property="og:type"/>
+<meta content="https://whisperwindworkspace.github.io/John-Jevi-dela-Cruz/case-data-api-ingestion-normalization.html" property="og:url"/><meta content="630" property="og:image:height"/><meta content="1200" property="og:image:width"/><meta content="https://whisperwindworkspace.github.io/John-Jevi-dela-Cruz/assets/images/og-image.png" property="og:image"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "Zapier API Ingestion: Pagination, Normalization, and Upsert/Dedup at Scale",
+  "description": "Implemented code-based API ingestion in Zapier for CheckoutChamp and Facebook Ads with looping, pagination, and dedup logic.",
+  "author": {
+    "@type": "Person",
+    "name": "John Jevi dela Cruz"
+  },
+  "genre": "Case Study",
+  "url": "https://whisperwindworkspace.github.io/John-Jevi-dela-Cruz/case-data-api-ingestion-normalization.html",
+  "datePublished": "2026-01-30"
+}
+  </script>
+<link href="assets/css/styles.css" rel="stylesheet"/>
+<script defer="" src="assets/js/site.js"></script>
+<meta content="summary_large_image" name="twitter:card"/><meta content="https://whisperwindworkspace.github.io/John-Jevi-dela-Cruz/assets/images/og-image.png" name="twitter:image"/></head>
+<body><a class="skip-link" href="#mainContent">Skip to content</a>
+<header>
+<div class="container">
+<div class="nav">
+<a class="brand" href="index.html">
+<div class="brand-mark">
+<img alt="John Jevi dela Cruz logo" height="32" src="assets/images/personal-website-logo.png" style="width: 100%; height: 100%; border-radius: 14px; object-fit: cover; display: block;" width="32"/>
+</div>
+<div class="brand-text">John Jevi dela Cruz</div>
+</a>
+<nav class="nav-links">
+<a href="about.html">About</a>
+<a href="experience.html">Experience</a>
+<a href="services.html">Services</a>
+<a class="is-current" href="case-studies.html">Case Studies</a>
+<a href="certifications.html">Certifications</a>
+<a href="index.html#contact">Contact</a>
+</nav>
+<div class="nav-actions">
+<button aria-label="Toggle color theme" class="theme-toggle" id="themeToggle" type="button">
+<span id="themeIcon">☾</span>
+</button>
+<a class="nav-cta" href="index.html#contact">Book a trial month</a>
+</div>
+</div>
+</div>
+</header>
+<main id="mainContent">
+<section class="container hero" style="margin-bottom: 2.5rem;">
+<div>
+<div class="hero-eyebrow">Case study</div>
+<h1 class="hero-title">Zapier API Ingestion: Pagination, Normalization, and Upsert/Dedup at Scale</h1>
+<p class="hero-body">Zapier can be pushed further than many teams expect—if the ingestion is designed like a small data pipeline: paginate, normalize, deduplicate, and validate.</p>
+<p class="hero-body" style="margin-top: 1rem;">
+<a class="btn" href="case-studies.html">← Back to case studies</a>
+</p>
+</div>
+<aside class="hero-right-card">
+<h2 class="hero-right-title">At a glance</h2>
+<ul class="hero-right-list">
+<li><strong>Role:</strong> Automation + data engineering</li><li><strong>Stack:</strong> Zapier (Code steps), CheckoutChamp API, Facebook Ads API, Google Sheets</li><li><strong>Deliverables:</strong> Ingestion scripts, looping/pagination, upsert strategy, QA checks</li>
+</ul>
+<h3 style="margin-top:1.25rem; margin-bottom:0.75rem;">Key highlights</h3>
+<ul class="hero-right-list" style="margin-top:0;">
+<li>Pagination + looping within Zapier limits</li><li>Normalized schema for analysis readiness</li><li>Upsert/dedup + QA checks for integrity</li>
+</ul>
+</aside>
+</section>
+<section class="section">
+<div class="container"><article class="card" style="margin-bottom: 1.25rem;"><h2 style="margin-top:0;">Context</h2><p style="margin-bottom:0;">Many reporting systems fail because data ingestion is treated as a one-off script instead of a maintained pipeline.</p></article><article class="card" style="margin-bottom: 1.25rem;"><h2 style="margin-top:0;">Objective</h2><p style="margin-bottom:0;">Create repeatable ingestion and normalization patterns that handle pagination, schema changes, and deduplication—while surfacing gaps early.</p></article><article class="card" style="margin-bottom: 1.25rem;"><h2 style="margin-top:0;">Approach</h2><p>I used a predictable pipeline design regardless of source.</p><ul class="card-list"><li>Normalize fields into a stable schema before writing to the final table.</li><li>Use dedupe keys and upsert logic; never append blindly.</li><li>Add reconciliation checks (missing dates, mismatched totals) as first-class outputs.</li><li>Document edge cases and failure modes so future changes don’t break silently.</li></ul></article><article class="card" style="margin-bottom: 1.25rem;"><h2 style="margin-top:0;">Deliverables</h2><p>Reusable patterns that apply across APIs/tools.</p><ul class="card-list"><li>Pagination + looping ingestion approach.</li><li>Normalization map and field definitions.</li><li>QA/reconciliation checks + error surfacing.</li><li>Runbook notes for troubleshooting.</li></ul></article><article class="card" style="margin-bottom: 1.25rem;"><h2 style="margin-top:0;">Results</h2><p style="margin-bottom:0;">More reliable analytics because the pipeline can be rerun safely and problems are visible instead of hidden.</p></article><article class="card" style="margin-bottom: 1.25rem;"><h2 style="margin-top:0;">Reusable checklist</h2><p>If you’re doing something similar, this is the short checklist I follow to keep the work clean and close-ready.</p><ul class="card-list"><li>Normalize first, then model.</li><li>Upsert/dedup is non-negotiable for automation stability.</li><li>Add a QA tab for missing dates and mismatches.</li><li>Write a runbook: “what breaks first” and how to fix it.</li></ul></article></div>
+</section>
+<section class="section">
+<div class="container">
+<div class="section-header">
+<div>
+<h2 class="section-title">If you want this outcome</h2>
+<p class="section-sub">Tell me your tools, your current bottleneck, and what “good” looks like. I’ll propose a simple first-month plan.</p>
+</div>
+</div>
+<p class="section-sub">
+<a class="btn-primary" href="index.html#contact">Book a trial month</a>
+<a class="btn" href="services.html" style="margin-left: 0.75rem;">See services</a>
+</p>
+</div>
+</section>
+</main>
+<footer>
+<div class="container">
+<div class="footer-inner">
+<div>© <span id="year"></span> John Jevi dela Cruz.</div>
+<nav class="footer-nav">
+<a href="index.html">Home</a>
+<a href="experience.html">Experience</a>
+<a href="services.html">Services</a>
+<a href="certifications.html">Certifications</a>
+</nav>
+<div class="footer-contact"><a href="mailto:johnjevi.delacruz@gmail.com">johnjevi.delacruz@gmail.com</a> · <a href="https://wa.me/639610704926" rel="noopener" target="_blank">WhatsApp: +639610704926</a></div></div>
+</div>
+</footer>
+</body>
+</html>
