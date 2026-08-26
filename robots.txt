@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://whisperwindworkspace.github.io/John-Jevi-dela-Cruz/sitemap.xml
+Sitemap: https://johnjevidelacruz.github.io/John-Jevi-dela-Cruz/sitemap.xml
