@@ -591,6 +591,12 @@ p + p {
   justify-content: space-between;
 }
 
+@media (min-width: 50.001rem) {
+  .featured-cases .case-card:not(:first-child) .case-meta {
+    min-height: 4.5rem;
+  }
+}
+
 .case-meta {
   display: grid;
   align-content: start;
