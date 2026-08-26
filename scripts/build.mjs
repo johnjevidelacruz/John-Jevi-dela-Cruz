@@ -460,10 +460,7 @@ await put('privacy/index.html', page({ title: 'Privacy', description: 'How conta
 await put('404.html', page({ title: 'Page Not Found', description: 'The requested portfolio page could not be found.', body: notFoundBody(), path: '404.html', bodyClass: 'error-page', robots: 'noindex,follow' }));
 
 const redirects = {
-  'about.html': 'about/',
   'services.html': 'how-i-help/',
-  'case-studies.html': 'case-studies/',
-  'experience.html': 'experience/',
   'certifications.html': 'credentials/',
   'fractional-ops-partner.html': 'how-i-help/',
   'moving-crm-operations.html': 'case-studies/dan-moving-team/',
