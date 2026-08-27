@@ -99,6 +99,79 @@ document.documentElement.classList.add('js');
 })();
 
 (() => {
+  document.querySelectorAll('[data-carousel]').forEach((carousel) => {
+    const track = carousel.querySelector('.carousel-track');
+    const viewport = carousel.querySelector('.carousel-viewport');
+    const slides = [...carousel.querySelectorAll('[data-carousel-item]')];
+    const indicators = [...carousel.querySelectorAll('[data-carousel-indicator]')];
+    const previous = carousel.querySelector('[data-carousel-prev]');
+    const next = carousel.querySelector('[data-carousel-next]');
+    const status = carousel.querySelector('[data-carousel-status]');
+    let current = 0;
+    let pointerStart = null;
+
+    if (!track || !viewport || !previous || !next || slides.length === 0) return;
+
+    const show = (index) => {
+      current = (index + slides.length) % slides.length;
+      track.style.transform = `translateX(-${current * 100}%)`;
+
+      slides.forEach((slide, slideIndex) => {
+        const active = slideIndex === current;
+        slide.classList.toggle('is-active', active);
+        slide.setAttribute('aria-hidden', String(!active));
+        slide.toggleAttribute('inert', !active);
+      });
+
+      indicators.forEach((indicator, indicatorIndex) => {
+        const active = indicatorIndex === current;
+        indicator.classList.toggle('is-active', active);
+        if (active) indicator.setAttribute('aria-current', 'true');
+        else indicator.removeAttribute('aria-current');
+      });
+
+      if (status) status.textContent = `Slide ${current + 1} of ${slides.length}`;
+    };
+
+    previous.addEventListener('click', () => show(current - 1));
+    next.addEventListener('click', () => show(current + 1));
+
+    indicators.forEach((indicator) => {
+      indicator.addEventListener('click', () => show(Number(indicator.dataset.slideTo)));
+    });
+
+    carousel.addEventListener('keydown', (event) => {
+      if (event.key === 'ArrowLeft') {
+        event.preventDefault();
+        show(current - 1);
+      }
+      if (event.key === 'ArrowRight') {
+        event.preventDefault();
+        show(current + 1);
+      }
+    });
+
+    viewport.addEventListener('pointerdown', (event) => {
+      if (event.pointerType !== 'mouse') pointerStart = event.clientX;
+    });
+
+    viewport.addEventListener('pointerup', (event) => {
+      if (pointerStart === null) return;
+      const distance = event.clientX - pointerStart;
+      pointerStart = null;
+      if (Math.abs(distance) < 50) return;
+      show(current + (distance < 0 ? 1 : -1));
+    });
+
+    viewport.addEventListener('pointercancel', () => {
+      pointerStart = null;
+    });
+
+    show(0);
+  });
+})();
+
+(() => {
   const form = document.querySelector('[data-contact-form]');
   if (!form || !window.fetch || !window.FormData) return;
 
@@ -135,7 +208,7 @@ document.documentElement.classList.add('js');
       form.reset();
       updateStatus('Thank you. Your enquiry has been sent, and I will respond using the email you provided.');
     } catch (error) {
-      updateStatus('Your enquiry could not be sent just now. Your details are still in the form—please try again or use the direct email link.', 'error');
+      updateStatus('Your enquiry could not be sent just now. Your details are still in the form. Please try again or use the direct email link.', 'error');
     } finally {
       submit.disabled = false;
       submit.innerHTML = initialButton;
