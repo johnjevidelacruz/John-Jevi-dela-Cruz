@@ -17,55 +17,50 @@ const cases = [
     industry: 'Moving company',
     heading: 'Remote Team Operations',
     title: 'Leading a remote support team without keeping the owner in every decision',
-    summary: 'Ensuring role adherence, coaching individuals, resolving customer claims, and converting recurring explanations into SOPs and Loom guides the team can execute consistently.',
+    summary: 'Clear role ownership, practical coaching, and reusable procedures so daily work moves without the owner assigning every task.',
     situation: 'Moving operations cross calls, email, SMS, CRM records, estimates, inventories, bookings, customer disputes, and field issues. Work is fast-paced and ownership can easily become fragmented when different team members handle the same scenario in different ways.',
     intervention: 'Enforced established roles and duties so recurring work and open issues have a named owner without requiring daily manual allocation. Followed work through to completion, converted repeated verbal explanations into documented procedures and video guides, and connected sales, CRM and field context so the team could act with the information required.',
-    proof: 'During the current engagement, I personally booked 148 jobs with a combined booked job value of $196,000 and personally resolved 38 escalated customer claims tickets.',
-    value: 'Daily work has clearer ownership, recurring decisions have reusable guidance, and customer escalations have a structured path to resolution.'
+    outcome: 'The operation gained clearer role ownership, reusable procedures, and a defined escalation path. During the current engagement, I also booked 148 jobs with a combined booked value of $196,000 and resolved 38 escalated customer claims, connecting team management directly to revenue execution and customer recovery.'
   },
   {
     slug: 'accounting-firm-workflow',
     industry: 'Accounting firm',
     heading: 'Workflow Control',
     title: 'Controlling a 1,350-record pipeline across signing, payment and lodgement',
-    summary: 'Connecting signing, billing, payment checks, workflow status, lodgement administration, and ASIC tasks in one central, active control view with visible exceptions.',
+    summary: 'One operating view across signing, billing, payment, lodgement, and ASIC work so stalled files can be found and prioritised quickly.',
     situation: 'Accountants complete technical tax and accounting work. A file must then pass through approval, client signing, payment verification, submission, and filing across multiple systems. Without a single view across these conditions, unsigned, unpaid, or stalled work easily slips through the cracks.',
     intervention: 'Established a single control view for signing, payment readiness, lodgement status, and exceptions. Connected prerequisite conditions that must be satisfied before moving a file to the next stage, tied accountant billing sheets directly to completed work, and enforced explicit workflow states to prioritise follow-up by the specific blocking condition.',
-    proof: 'As of 24 August 2026, the control view covered 1,350 records, including 1,072 lodged files. It recorded 335 files sent for signing and 420 Adobe Sign “Signed and Filed” confirmations.',
-    value: 'The firm can locate unsigned, unpaid or unfiled work from one view and direct follow-up to the condition preventing completion.'
+    outcome: 'The firm gained one operating view across 1,350 records, allowing unsigned, unpaid, and unfiled work to be found by its blocking condition instead of searched for across inboxes and systems. The workflow supported 1,072 lodged files, 335 signing packages, and 420 signed-and-filed confirmations.'
   },
   {
     slug: 'bpo-quality-improvement',
     industry: 'BPO',
     heading: 'Quality Operations',
     title: 'Designing QA coverage for 444 active agents and turning findings into action',
-    summary: 'Balancing audits and coaching across quartiles, shifts, and lines of business, then converting collective QA data into executive business reviews and Operations action plans.',
+    summary: 'Balanced QA coverage and executive-level analysis so audit findings become coaching, training, and Operations action.',
     situation: 'Quality assurance needed to cover multiple lines of business, varied agent shifts, and differing performance risk levels. Audit scores also needed to become actionable management intelligence rather than isolated numbers inside individual files.',
     intervention: 'Built a structured allocation model based on agent performance quartiles and shift schedules. Consolidated audit findings by line of business to highlight systemic trends, identified specific agent behaviours driving non-compliance or high handle times, and created weekly executive decks with root-cause analysis and proposed action plans.',
-    proof: 'The November 2024 allocation covered 444 active agents across 16 QAs and three lines of business. During the supported improvement period, empathy non-compliance moved from 60% to 45% in three weeks and average handling time moved from 685 to 618 seconds. External evaluators placed my coaching quality in Q1, the highest QA-of-QA tier.',
-    value: 'The campaign gained a quartile-weighted way to distribute QA capacity, clearer visibility into performance drivers, and a direct path from QA findings to coaching, training, and Operations action.'
+    outcome: 'QA coverage was balanced across 444 active agents, 16 QAs, and three lines of business. During the supported improvement period, empathy non-compliance moved from 60% to 45% in three weeks and average handling time moved from 685 to 618 seconds. Leaders received a direct path from QA findings to coaching, training, and Operations action.'
   },
   {
     slug: 'ecommerce-profit-intelligence',
     industry: 'DTC e-commerce business',
     heading: 'Profit and Stock Intelligence',
     title: 'Delivering a working view of profit, margin, stock, and reorder risk',
-    summary: 'Correcting the API transaction source, reprocessing history, and building an operating model for performance, product mapping, COGS, inventory depletion, stockout, and reorder decisions.',
+    summary: 'A working profit and stock model so margin, inventory, and replenishment decisions come from one operating view.',
     situation: 'Order, product, cost, and inventory data were fragmented, making daily profitability, stock-depletion, and replenishment decisions harder to support from one view. An initial data-source mismatch also produced incomplete or inaccurate transaction reporting.',
     intervention: 'Replaced the prior source with the Transaction Details API and reprocessed historical transactions. Built formula-driven calculations for current stock, stock value, 7-day sales velocity, days to stockout, projected stockout date, and reorder dates with urgency indicators. Mapped product variants and SKUs to overarching product families.',
-    proof: 'The delivered tracker was put into active business use. The supplied snapshot contains 191 order records from 27 to 30 December 2025 and 51 product-mapping records across three product families.',
-    value: 'Commercial and inventory questions can be investigated from one model built around a defined transaction source, mapped SKUs, and explicit replenishment indicators.'
+    outcome: 'The client gained a live operating view of profitability, stock health, and reorder urgency built on one defined transaction source. Product mappings and stockout indicators made daily commercial and inventory decisions easier to investigate without reconciling disconnected exports.'
   },
   {
     slug: 'construction-materials-finance',
     industry: 'Insulation and construction materials e-commerce business',
     heading: 'Finance Operations',
     title: 'Building the finance operation across two businesses',
-    summary: 'Setting up both QBO environments, leading a three-person finance team, and establishing controls for customer invoicing, payment posting, transaction matching, and order-to-spend reconciliation.',
+    summary: 'A functioning finance operation across two businesses so invoices, payments, card spend, and supplier orders remain traceable.',
     situation: 'Two related e-commerce entities needed their QuickBooks Online environments established and their daily transaction work controlled. Invoices, payments, credit-card spend, supplier orders, credits, and adjustments needed traceability.',
     intervention: 'Built both QBO instances from scratch and established standardised procedures for invoicing, payment posting, and card matching. Created a matching ledger linking credit card charges to order numbers, purchase dates, statuses, delivery addresses, gross amounts, credits, and net totals. Applied exact-amount and charge-plus-credit matching to surface unmatched charges, credits, and order differences.',
-    proof: 'I set up both QBO businesses and led a three-person finance team. The supplied ledger snapshot contains 100 card transactions and 85 orders, recording 59 matched transactions and 54 matched orders. Five supplied customer invoices demonstrate the invoicing workflow.',
-    value: 'The operation had a clearer record of invoicing, payment posting, and matched or unmatched transactions, making exceptions easier to identify and investigate.'
+    outcome: 'Both businesses moved into functioning QuickBooks Online environments with a trained three-person finance team and repeatable invoicing, payment-posting, and matching routines. Charges and supplier orders became easier to trace, while unmatched items surfaced as exceptions for investigation.'
   }
 ];
 
@@ -76,8 +71,7 @@ const additionalBuilds = [
     summary: 'Built a retrieval-augmented generation chatbot in Flowise using GroqChat and an Excel dataset. Resolved embed errors by separating ingestion nodes from the public runtime flow and deployed it through GitHub Pages.',
     situation: 'A public Flowise embed returned an error because data-ingestion and credential-dependent nodes were still included in the runtime flow.',
     intervention: 'Separated the controlled ingestion path from the public question-and-answer runtime, then configured the retrieval flow around the prepared knowledge base.',
-    proof: 'The revised embed ran through GitHub Pages without invoking ingestion steps or exposing credentials.',
-    value: 'The public interface could query the prepared data through a cleaner, safer runtime path.'
+    outcome: 'The public chatbot could query the prepared knowledge base without rerunning ingestion steps or exposing credentials. The separation also made the runtime easier to troubleshoot and maintain.'
   },
   {
     slug: 'movemate-estimator', industry: 'Moving operations concept', heading: 'Moving Estimate Data',
@@ -85,8 +79,7 @@ const additionalBuilds = [
     summary: 'Designed a concept and application architecture that translates visual or listed household items into cubic volume, weight, and mover requirements for more precise inventory preparation.',
     situation: 'Moving estimates often begin with incomplete written inventories or unstructured customer photos, leaving estimators to reconstruct the useful data manually.',
     intervention: 'Defined a reviewable workflow that maps detected or listed household items to moving inventory data while preserving uncertainty for human confirmation.',
-    proof: 'The concept includes moving-specific outputs for cubic volume, weight, and mover requirements rather than generic object labels.',
-    value: 'Estimators can begin from structured inventory information and focus their judgment on confirmation and exceptions.'
+    outcome: 'The concept translated customer-provided household items into structured moving data for estimator review, giving teams a clearer starting point for volume, weight, and mover requirements while keeping uncertain items visible for confirmation.'
   }
 ];
 const allCases = [...cases, ...additionalBuilds];
@@ -136,7 +129,7 @@ function homeBody() {
     ['Systemise', 'Make work repeatable', 'Review workflows, write practical SOPs, and turn recurring explanations into training the team can use.'],
     ['Control', 'Keep exceptions visible', 'Track status, quality, billing, and open issues so the next decision is clear and nothing disappears.']
   ];
-  const hero = `<section class="hero section-pad"><div class="shell hero-focus"><p class="eyebrow">Operations &amp; Management Consultant</p><h1>Operations that work.</h1><h2 class="hero-brief">I turn the way people work into the way the business works.</h2><p class="lede">I manage people, improve workflows, and build the SOPs, controls, and reporting that keep day-to-day operations consistent.</p><div class="button-row">${button(href('contact/'), 'Discuss an operations problem')}${button(href('case-studies/'), 'See the work', true)}</div></div></section>`;
+  const hero = `<section class="hero section-pad"><div class="shell hero-focus"><p class="eyebrow">Operations &amp; Management Consultant</p><h1>Operations that work.</h1><h2 class="hero-brief">I turn the way people work into the way the business works.</h2><p class="lede">I take ownership of the coordination, standards, and controls that keep work moving, so owners spend less time chasing tasks and resolving the same problems twice.</p><div class="button-row">${button(href('contact/'), 'Discuss an operations problem')}${button(href('case-studies/'), 'See the work', true)}</div></div></section>`;
   return `${hero}<section class="section-pad"><div class="shell"><div class="section-heading"><p class="eyebrow">How I help</p><h2>Manage the work. Build the system.</h2></div>${carousel(services, 'How I help', ([label, title, text], i) => `<article class="carousel-item carousel-card service-slide${i === 0 ? ' is-active' : ''}" data-carousel-item${i ? ' aria-hidden="true" inert' : ''}><p class="eyebrow">${label}</p><h3>${title}</h3><p>${text}</p></article>`)}<div class="section-action"><a class="text-link" href="${href('how-i-help/')}">How I can help ${icon('arrow')}</a></div></div></section><section class="section-pad selected-work"><div class="shell"><div class="section-heading"><p class="eyebrow">Selected work</p><h2>Operational problems I have been trusted to own.</h2></div>${carousel(cases, 'Selected work', (item, i) => `<article class="carousel-item carousel-card case-card${i === 0 ? ' is-active' : ''}" data-carousel-item${i ? ' aria-hidden="true" inert' : ''}><div class="case-meta"><span>${item.industry}</span></div><h3><a href="${href(`case-studies/${item.slug}/`)}">${item.title}</a></h3><p>${item.summary}</p><a class="text-link" href="${href(`case-studies/${item.slug}/`)}">Read case study ${icon('arrow')}</a></article>`)}<div class="section-action"><a class="text-link" href="${href('case-studies/')}">View all case studies ${icon('arrow')}</a></div></div></section>${cta('What is taking too much attention to keep moving?')}`;
 }
 
@@ -146,7 +139,7 @@ function helpBody() {
     ['Make work repeatable', 'Turn repeated explanations into a process the team can use.', ['Workflow review and simplification', 'Practical SOPs, decision rules, and Loom guides', 'Training, onboarding, and handoffs'], 'The team relies less on verbal instruction and new people have a faster path to consistent work.'],
     ['Show what needs attention', 'Make open work and exceptions visible before they become surprises.', ['Status and exception tracking', 'Quality, billing, and finance checks', 'Recurring problem review and follow-through'], 'Blocked work surfaces earlier, exceptions have a record, and recurring problems can be corrected.']
   ];
-  return `${pageHero('How I Help', 'Manage today. Improve tomorrow.', 'My work sits across people, process, and systems. The goal is clear ownership, consistent execution, and fewer problems returning to the owner.')}<section class="section-pad"><div class="shell services-stack">${services.map(([title, intro, items, result]) => `<article class="service-block service-row"><div class="service-title"><h2>${title}</h2><p>${intro}</p></div><div class="service-detail"><h3>What I take ownership of</h3><ul class="plain-list">${items.map(item => `<li>${item}</li>`).join('')}</ul><p class="service-result"><strong>Result:</strong> ${result}</p></div></article>`).join('')}</div></section><section class="fit-section section-pad"><div class="shell fit-focus"><p class="eyebrow">A good fit</p><h2>Your team is busy, but you still carry too much of the coordination.</h2><ul class="check-list"><li><span>You remain the default person for priorities and escalations.</span></li><li><span>Assigned work still needs chasing.</span></li><li><span>Recurring work depends on verbal instructions.</span></li></ul></div></section>${cta('Bring the work that keeps getting chased, repeated, or escalated.')}`;
+  return `${pageHero('How I Help', 'Manage today. Improve tomorrow.', 'My work sits across people, process, and systems. The goal is clear ownership, consistent execution, and fewer problems returning to the owner.')}<section class="section-pad"><div class="shell services-stack">${services.map(([title, intro, items, result]) => `<article class="service-block service-row"><div class="service-title"><h2>${title}</h2><p>${intro}</p></div><div class="service-detail"><h3>What I take ownership of</h3><ul class="plain-list">${items.map(item => `<li>${item}</li>`).join('')}</ul><p class="service-result"><strong>Result:</strong> ${result}</p></div></article>`).join('')}</div></section><section class="fit-section section-pad"><div class="shell fit-focus"><div><p class="eyebrow">A good fit</p><h2>You should not have to manage every handoff yourself.</h2><p class="fit-intro">I am a strong fit when your team is active but the work still returns to you for direction, follow-up, or resolution.</p></div><ul class="check-list"><li>Priorities and escalations still depend on you.</li><li>Assigned work needs repeated follow-up.</li><li>Recurring work changes depending on who handles it.</li></ul></div></section>${cta('Bring the work that keeps getting chased, repeated, or escalated.')}`;
 }
 
 function card(item, wide = false) {
@@ -154,11 +147,11 @@ function card(item, wide = false) {
 }
 
 function casesBody() {
-  return `${pageHero('Case Studies', 'Operational problems I have been trusted to own.', 'Each case shows the responsibility taken, the operating system established, and the evidence that remained afterward.')}<section class="section-pad"><div class="shell"><div class="section-heading"><h2>Flagship case studies</h2></div><div class="case-index-grid">${cases.map((item, i) => card(item, i === 0)).join('')}</div></div></section><section class="section-pad selected-work"><div class="shell"><div class="section-heading"><h2>Additional builds</h2></div><div class="case-index-grid">${additionalBuilds.map(item => card(item)).join('')}</div></div></section>${cta('Have a similar operating problem?')}`;
+  return `${pageHero('Case Studies', 'What changes when the operation becomes easier to run.', 'These cases show how I bring structure to recurring work, connect the people and systems involved, and leave teams with clearer control.')}<section class="section-pad"><div class="shell"><div class="section-heading"><h2>Flagship case studies</h2></div><div class="case-index-grid">${cases.map((item, i) => card(item, i === 0)).join('')}</div></div></section><section class="section-pad selected-work"><div class="shell"><div class="section-heading"><h2>Additional builds</h2></div><div class="case-index-grid">${additionalBuilds.map(item => card(item)).join('')}</div></div></section>${cta('Have a similar operating problem?')}`;
 }
 
 function caseBody(item) {
-  return `<article class="case-detail"><header class="case-hero section-pad"><div class="shell"><a class="back-link" href="${href('case-studies/')}">← All case studies</a><p class="eyebrow">${item.industry}</p><h1>${item.heading}</h1><h2 class="hero-brief">${item.title}</h2><p class="lede">${item.summary}</p></div></header><section class="case-story section-pad"><div class="shell case-content case-content-wide"><section><h2>Situation</h2><p>${item.situation}</p></section><section><h2>Intervention</h2><p>${item.intervention}</p></section><section class="evidence-block"><h2>Proof</h2><p>${item.proof}</p></section><section><h2>Operating value</h2><p>${item.value}</p></section></div></section></article>${cta('Does this operating pattern look familiar?')}`;
+  return `<article class="case-detail"><header class="case-hero section-pad"><div class="shell"><a class="back-link" href="${href('case-studies/')}">← All case studies</a><p class="eyebrow">${item.industry}</p><h1>${item.heading}</h1><h2 class="hero-brief">${item.title}</h2><p class="lede">${item.summary}</p></div></header><section class="case-story section-pad"><div class="shell case-content case-content-wide"><section><h2>Situation</h2><p>${item.situation}</p></section><section><h2>What I changed</h2><p>${item.intervention}</p></section><section class="outcome-block"><h2>Outcome</h2><p>${item.outcome}</p></section></div></section></article>${cta('Does this operating pattern look familiar?')}`;
 }
 
 const roles = [
@@ -178,7 +171,7 @@ const roles = [
     industry: 'Insulation and construction materials e-commerce business', title: 'Head of Finance Department / Finance Operations Lead', dates: 'January 2026 to June 2026',
     description: 'I led a three-person finance function across two related businesses. I set up both companies in QuickBooks Online from scratch, configured delivery-address sales tax rules, created and sent customer invoices, and managed payment posting, expense tracking, and reconciliation support. I also built a matching ledger connecting card activity to order records so missing or conflicting transactions could be identified.',
     ownership: 'Multi-company QBO setup, finance team leadership, customer invoicing, order-to-spend matching, multi-card reconciliation controls, and quality review.',
-    evidence: ['The matching ledger snapshot from 27 January to 7 February 2026 tracked 100 card transactions and 85 orders, recording 59 matched transactions and 54 matched orders using exact-amount and charge-plus-credit matching.', 'Prepared customer invoices across insulation and drywall products covering quantities, rates, shipping, sales tax, terms, and payment instructions.'], caseSlug: 'construction-materials-finance'
+    evidence: ['Built a matching process that recorded 59 matched transactions and 54 matched orders during the reviewed period, while surfacing unmatched charges and credits for follow-up.', 'Established repeatable customer invoicing across insulation and drywall products, including shipping, delivery-address sales tax, payment terms, and instructions.'], caseSlug: 'construction-materials-finance'
   },
   {
     industry: 'AI data annotation provider', title: 'Freelance AI Data Annotation Support', dates: 'January 2026 to April 2026',
@@ -197,14 +190,14 @@ const roles = [
   },
   {
     industry: 'BPO', title: 'Lead Quality Analyst', dates: 'July 2023 to January 2025',
-    description: 'I directly led 10 quality analysts and separately supported a personal portfolio of approximately 25 agents through audits, coaching, and performance review. I designed and maintained the campaign-wide allocation covering 16 QAs, three lines of business, and 444 active agents in the November 2024 snapshot. Workloads were balanced by performance quartile, with QA schedules aligned to agent shifts. I consolidated QA findings by line of business, identified underlying agent behaviours, built weekly business review decks, and presented root-cause analyses and action plans to clients, directors, Operations Managers, and Team Leaders.',
+    description: 'I directly led 10 quality analysts and separately supported a personal portfolio of approximately 25 agents through audits, coaching, and performance review. I designed and maintained the campaign-wide allocation covering 16 QAs, three lines of business, and 444 active agents in November 2024. Workloads were balanced by performance quartile, with QA schedules aligned to agent shifts. I consolidated QA findings by line of business, identified underlying agent behaviours, built weekly business review decks, and presented root-cause analyses and action plans to clients, directors, Operations Managers, and Team Leaders.',
     ownership: 'People leadership, campaign workload allocation, audit and coaching coverage, calibration, performance analysis, and executive stakeholder briefing.',
     evidence: ['Empathy non-compliance reduced from 60% to 45% over three weeks during the supported improvement period.', 'Average Handling Time decreased from 685 seconds to 618 seconds during the supported improvement period.', 'Scored in Q1, the highest tier, by external evaluators for QA-of-QA coaching quality.', 'Recognised as Top QA in May 2024 and September 2024.'], caseSlug: 'bpo-quality-improvement'
   }
 ];
 
 function experienceBody() {
-  return `${pageHero('Experience', 'From frontline execution to operational leadership.', 'My work progressed through customer operations, quality leadership, finance operations, practice management, and remote team management. Across each role, I improved how work was assigned, performed, checked, and completed.')}<section class="section-pad"><div class="shell timeline">${roles.map(role => `<article><div class="timeline-date">${role.dates}</div><div class="timeline-marker" aria-hidden="true"></div><div class="timeline-body"><p class="eyebrow">${role.industry}</p><h2>${role.title}</h2><p>${role.description}</p><h3>Core ownership</h3><p>${role.ownership}</p>${role.evidence ? `<h3>Operational evidence</h3><ul class="plain-list">${role.evidence.map(item => `<li>${item}</li>`).join('')}</ul>` : ''}${role.caseSlug ? `<a class="text-link" href="${href(`case-studies/${role.caseSlug}/`)}">Read the related case study ${icon('arrow')}</a>` : ''}</div></article>`).join('')}</div></section><section class="experience-bridge section-pad"><div class="shell"><p class="eyebrow">Earlier customer operations foundation</p><h2>Frontline work taught me where procedures break in real use.</h2><p>Before moving into quality and operations leadership, I worked across several frontline customer-support and subject matter expert roles in the BPO industry. At one employer, I was promoted to SME within two weeks of entering production and supported demo calls, side-barging, procedure clarification, and supervisor escalations. At another, I created client-approved email templates and macros adopted across the wider agent workflow.</p></div></section>${cta('Need a manager who understands the work from the frontline upward?')}`;
+  return `${pageHero('Experience', 'From frontline execution to operational leadership.', 'My work progressed through customer operations, quality leadership, finance operations, practice management, and remote team management. Across each role, I improved how work was assigned, performed, checked, and completed.')}<section class="section-pad"><div class="shell timeline">${roles.map(role => `<article><div class="timeline-date">${role.dates}</div><div class="timeline-marker" aria-hidden="true"></div><div class="timeline-body"><p class="eyebrow">${role.industry}</p><h2>${role.title}</h2><p>${role.description}</p><h3>Core ownership</h3><p>${role.ownership}</p>${role.evidence ? `<h3>Results</h3><ul class="plain-list">${role.evidence.map(item => `<li>${item}</li>`).join('')}</ul>` : ''}${role.caseSlug ? `<a class="text-link" href="${href(`case-studies/${role.caseSlug}/`)}">Read the related case study ${icon('arrow')}</a>` : ''}</div></article>`).join('')}</div></section><section class="experience-bridge section-pad"><div class="shell"><p class="eyebrow">Earlier customer operations foundation</p><h2>Frontline work taught me where procedures break in real use.</h2><p>Before moving into quality and operations leadership, I worked across several frontline customer-support and subject matter expert roles in the BPO industry. At one employer, I was promoted to SME within two weeks of entering production and supported demo calls, side-barging, procedure clarification, and supervisor escalations. At another, I created client-approved email templates and macros adopted across the wider agent workflow.</p></div></section>${cta('Need a manager who understands the work from the frontline upward?')}`;
 }
 
 function aboutBody() {
@@ -222,19 +215,29 @@ function credentialsBody() {
     ['EF SET English, 78/100, CEFR C2', 'Communication', 'assets/images/ef-set-certificate-full.webp']
   ];
   const tools = [
-    ['https://www.xero.com/favicon.ico', 'Xero'], ['https://quickbooks.intuit.com/favicon.ico', 'QuickBooks'],
-    ['https://ssl.gstatic.com/docs/spreadsheets/favicon3.ico', 'Google Sheets'], ['https://www.microsoft.com/favicon.ico', 'Microsoft Excel'],
-    ['https://app.powerbi.com/images/PowerBI_Favicon.ico', 'Power BI'], ['https://www.supermove.com/favicon.ico', 'Supermove'],
-    ['https://www.ringcentral.com/favicon.ico', 'RingCentral'], ['https://a.slack-edge.com/80588/marketing/img/meta/favicon-32.png', 'Slack'],
-    ['https://trello.com/favicon.ico', 'Trello'], ['https://www.adobe.com/favicon.ico', 'Adobe Sign'],
-    ['https://zapier.com/favicon.ico', 'Zapier'], ['https://www.make.com/favicon.ico', 'Make'],
-    ['https://n8n.io/favicon.ico', 'n8n'], ['https://www.salesforce.com/favicon.ico', 'Salesforce']
+    ['https://www.xero.com/favicon.ico', 'Xero'], ['https://www.xero.com/favicon.ico', 'Xero Tax'],
+    ['https://www.xero.com/favicon.ico', 'Xero Practice Manager'], ['https://quickbooks.intuit.com/favicon.ico', 'QuickBooks Online'],
+    ['https://quickbooks.intuit.com/favicon.ico', 'QuickBooks Time'], ['https://www.constitute.com.au/favicon.ico', 'Constitute'],
+    ['https://www.adobe.com/favicon.ico', 'Adobe Acrobat Sign'],
+    ['https://asic.gov.au/favicon.ico', 'ASIC Online Services'], ['https://ssl.gstatic.com/docs/spreadsheets/favicon3.ico', 'Google Sheets'],
+    ['https://www.microsoft.com/favicon.ico', 'Microsoft Excel'], ['https://app.powerbi.com/images/PowerBI_Favicon.ico', 'Power BI'],
+    [href('assets/images/tool-supermove.png'), 'Supermove'], ['https://www.ringcentral.com/favicon.ico', 'RingCentral'],
+    ['https://www.phoneburner.com/favicon.ico', 'PhoneBurner'], ['https://www.salesforce.com/favicon.ico', 'Salesforce'],
+    ['https://www.zendesk.com/favicon.ico', 'Zendesk'], ['https://a.slack-edge.com/80588/marketing/img/meta/favicon-32.png', 'Slack'],
+    ['https://www.microsoft.com/favicon.ico', 'Microsoft Teams'], ['https://www.microsoft.com/favicon.ico', 'Outlook'],
+    ['https://www.google.com/favicon.ico', 'Gmail'], ['https://www.google.com/favicon.ico', 'Google Workspace'],
+    ['https://trello.com/favicon.ico', 'Trello'], ['https://flowiseai.com/favicon.ico', 'Flowise'],
+    ['https://qdrant.tech/favicon.ico', 'Qdrant'], ['https://jina.ai/favicon.ico', 'Jina Embeddings'],
+    ['https://groq.com/favicon.ico', 'GroqChat'], ['https://www.retellai.com/favicon.ico', 'Retell AI'],
+    ['https://www.twilio.com/favicon.ico', 'Twilio'], ['https://zapier.com/favicon.ico', 'Zapier'],
+    ['https://www.make.com/favicon.ico', 'Make'], ['https://n8n.io/favicon.ico', 'n8n'],
+    ['https://github.com/favicon.ico', 'GitHub'], ['https://s.w.org/favicon.ico', 'WordPress']
   ];
   return `${pageHero('Credentials', 'Training that supports the work.', 'These credentials strengthen the systems, process, data, and communication skills used across my operating roles.')}<section class="section-pad"><div class="shell"><div class="section-heading"><h2>Professional credentials</h2></div><div class="credentials-list">${credentials.map(([name, area, image]) => `<article><div><p class="eyebrow">${area}</p><h3>${name}</h3></div><a class="text-link" href="${href(image)}" target="_blank" rel="noopener">View credential ${icon('arrow')}</a></article>`).join('')}</div></div></section><section class="tool-section section-pad"><div class="shell"><div class="section-heading"><p class="eyebrow">Tools</p><h2>Platforms I have used in real work.</h2></div><div class="tool-logo-grid">${tools.map(([source, name]) => `<div class="tool-logo"><img src="${source}" alt="" loading="lazy"><span>${name}</span></div>`).join('')}</div></div></section>${cta('The platform matters less than the operating discipline around it.')}`;
 }
 
 function contactBody() {
-  return `<section class="contact-hero section-pad"><div class="shell contact-grid"><div><h1>Contact</h1><h2 class="hero-brief">What keeps getting stuck?</h2><p class="lede">Tell me what is happening and where the work keeps returning to you.</p><div class="contact-direct"><a href="mailto:${email}">${email}</a><a href="${whatsapp}" rel="noopener">WhatsApp</a></div></div><form class="contact-form" action="https://formspree.io/f/mblgbzoj" method="post" data-contact-form><div class="form-intro"><h2>Tell me what is happening</h2></div><div class="field"><label for="name">Name</label><input id="name" name="name" autocomplete="name" required></div><div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div><div class="field"><label for="difficult">What needs attention?</label><textarea id="difficult" name="current_difficulty" rows="6" required></textarea></div><div class="honeypot" aria-hidden="true"><input id="website" name="_gotcha" tabindex="-1" autocomplete="off" aria-label="Spam prevention field"></div><input type="hidden" name="form_source" value="portfolio_operations_enquiry"><button class="button form-submit" type="submit">Send message ${icon('arrow')}</button><div class="form-status" role="status" aria-live="polite" tabindex="-1" data-form-status></div></form></div></section>`;
+  return `<section class="contact-hero section-pad"><div class="shell contact-grid"><div><h1 class="sr-only">Contact</h1><h2 class="contact-prompt">What keeps getting stuck?</h2><p class="lede">Tell me what is happening and where the work keeps returning to you.</p></div><form class="contact-form" action="https://formspree.io/f/mblgbzoj" method="post" data-contact-form><div class="form-intro"><h3>Tell me what is happening</h3></div><div class="field"><label for="name">Name</label><input id="name" name="name" autocomplete="name" required></div><div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div><div class="field"><label for="difficult">What needs attention?</label><textarea id="difficult" name="current_difficulty" rows="6" required></textarea></div><div class="honeypot" aria-hidden="true"><input id="website" name="_gotcha" tabindex="-1" autocomplete="off" aria-label="Spam prevention field"></div><input type="hidden" name="form_source" value="portfolio_operations_enquiry"><button class="button form-submit" type="submit">Send message ${icon('arrow')}</button><div class="form-status" role="status" aria-live="polite" tabindex="-1" data-form-status></div></form></div></section>`;
 }
 
 function privacyBody() {

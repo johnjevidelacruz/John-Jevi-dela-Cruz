@@ -1262,19 +1262,6 @@ p + p {
   gap: clamp(3rem, 8vw, 7rem);
 }
 
-.contact-direct {
-  display: grid;
-  justify-items: start;
-  gap: 0.4rem;
-  margin-top: 2rem;
-}
-
-.contact-direct span {
-  color: var(--slate);
-  font-size: 0.9rem;
-  font-weight: 700;
-}
-
 .contact-form {
   padding: clamp(1.5rem, 4vw, 2.75rem);
   border: 1px solid var(--line);
@@ -1880,7 +1867,10 @@ p + p {
 }
 
 .fit-focus {
-  max-width: none;
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  align-items: start;
+  gap: clamp(3rem, 8vw, 7rem);
 }
 
 .fit-focus h2 {
@@ -1888,8 +1878,26 @@ p + p {
 }
 
 .fit-focus .check-list {
-  max-width: 48rem;
-  margin-top: 2rem;
+  width: 100%;
+  margin-top: 0;
+}
+
+.fit-focus .check-list li {
+  display: block;
+  padding: 1.15rem 0 1.15rem 1.6rem;
+  font-size: 1.05rem;
+}
+
+.fit-focus .check-list li::before {
+  top: 1.55rem;
+  content: "";
+}
+
+.fit-intro {
+  max-width: 36rem;
+  margin-top: 1.25rem;
+  color: var(--slate);
+  font-size: 1.08rem;
 }
 
 .case-index-grid {
@@ -2057,6 +2065,12 @@ p + p {
   object-fit: contain;
 }
 
+.tool-logo img[src*="tool-supermove"] {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 0.5rem;
+}
+
 .contact-grid {
   grid-template-columns: minmax(0, 0.85fr) minmax(26rem, 1fr);
   gap: clamp(4rem, 9vw, 8rem);
@@ -2072,6 +2086,15 @@ p + p {
 
 .form-intro {
   margin-bottom: 2.5rem;
+}
+
+.contact-prompt {
+  max-width: 11ch;
+  font-size: clamp(2.5rem, 6vw, 4.75rem);
+}
+
+.form-intro h3 {
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
 }
 
 .form-submit {
@@ -2164,6 +2187,11 @@ p + p {
 }
 
 @media (max-width: 50rem) {
+  .fit-focus {
+    grid-template-columns: 1fr;
+    gap: 2.25rem;
+  }
+
   :root {
     --section-space: 4.25rem;
   }
