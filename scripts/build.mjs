@@ -15,51 +15,51 @@ const cases = [
   {
     slug: 'moving-company-operations',
     industry: 'Moving company',
-    heading: 'Remote Team Operations',
-    title: 'Leading a remote support team without keeping the owner in every decision',
-    summary: 'Clear role ownership, practical coaching, and reusable procedures so daily work moves without the owner assigning every task.',
-    situation: 'Moving operations cross calls, email, SMS, CRM records, estimates, inventories, bookings, customer disputes, and field issues. Work is fast-paced and ownership can easily become fragmented when different team members handle the same scenario in different ways.',
-    intervention: 'Enforced established roles and duties so recurring work and open issues have a named owner without requiring daily manual allocation. Followed work through to completion, converted repeated verbal explanations into documented procedures and video guides, and connected sales, CRM and field context so the team could act with the information required.',
-    outcome: 'The operation gained clearer role ownership, reusable procedures, and a defined escalation path. During the current engagement, I also booked 148 jobs with a combined booked value of $196,000 and resolved 38 escalated customer claims, connecting team management directly to revenue execution and customer recovery.'
+    heading: 'Moving Operations Management',
+    title: 'Managing the team, claims, and daily work behind every move',
+    summary: 'I connect staff performance, work completion, training, and customer resolution across the moving operation.',
+    situation: 'Moving operations depend on estimates, inventories, bookings, CRM records, payments, customer communication, and field information staying aligned. When the office team handles recurring work inconsistently, incomplete tasks become harder to see and complex issues return to the owner as billing disputes, damage claims, or service escalations.',
+    intervention: 'I manage the virtual-assistant team, monitor adherence to established roles, and follow assigned work through to completion. I coach and train staff, create SOPs and Loom guides, and standardise recurring decisions. I also personally handle damage claims, billing disputes, and other escalated customer matters by reviewing the estimate, inventory, CRM history, communications, and field information before resolving the issue and following it through.',
+    outcome: 'The business has one manager connecting team performance, process consistency, and customer resolution. Recurring work has clearer procedures, staff receive practical coaching, incomplete tasks remain visible, and difficult claims have a defined owner. During the current engagement, I personally booked 148 jobs with a combined booked value of $196,000 and resolved 38 escalated customer claims.'
   },
   {
     slug: 'accounting-firm-workflow',
     industry: 'Accounting firm',
-    heading: 'Workflow Control',
-    title: 'Controlling a 1,350-record pipeline across signing, payment and lodgement',
-    summary: 'One operating view across signing, billing, payment, lodgement, and ASIC work so stalled files can be found and prioritised quickly.',
-    situation: 'Accountants complete technical tax and accounting work. A file must then pass through approval, client signing, payment verification, submission, and filing across multiple systems. Without a single view across these conditions, unsigned, unpaid, or stalled work easily slips through the cracks.',
-    intervention: 'Established a single control view for signing, payment readiness, lodgement status, and exceptions. Connected prerequisite conditions that must be satisfied before moving a file to the next stage, tied accountant billing sheets directly to completed work, and enforced explicit workflow states to prioritise follow-up by the specific blocking condition.',
-    outcome: 'The firm gained one operating view across 1,350 records, allowing unsigned, unpaid, and unfiled work to be found by its blocking condition instead of searched for across inboxes and systems. The workflow supported 1,072 lodged files, 335 signing packages, and 420 signed-and-filed confirmations.'
+    heading: 'Practice Workflow Control',
+    title: 'Bringing client work, staff responsibilities, and outstanding actions into one view',
+    summary: 'I designed the shared workflow that connects staff work queues, billing, onboarding, compliance work, client follow-up, and company administration across the practice.',
+    situation: 'The practice managed a large volume of client work across separate staff sheets and specialist trackers. Each view served a purpose, but the separation made it harder to see the complete operating picture, identify outstanding actions, and understand where work was being held up.',
+    intervention: 'I designed the combined job-workflow system that brought staff work queues, job allocation, completed work, onboarding, bookkeeping, BAS, IAS, billing, lodgement, client updates, and ASIC administration into one shared control point. I also operated the detailed tax-form control linking signing, payment, and lodgement status, while maintaining individual billing views for three team members.',
+    outcome: 'The firm gained a shared operating view across its major administrative and compliance workflows. Staff could see assigned work, deadlines, completion status, and outstanding actions without relying on disconnected updates. Within the tax-form control process, 1,350 records were tracked and 1,072 reached lodgement. The wider workflow also supported 335 signing packages, 420 signed-and-filed confirmations, and 17 successful company registrations.'
   },
   {
     slug: 'bpo-quality-improvement',
     industry: 'BPO',
     heading: 'Quality Operations',
-    title: 'Designing QA coverage for 444 active agents and turning findings into action',
-    summary: 'Balanced QA coverage and executive-level analysis so audit findings become coaching, training, and Operations action.',
-    situation: 'Quality assurance needed to cover multiple lines of business, varied agent shifts, and differing performance risk levels. Audit scores also needed to become actionable management intelligence rather than isolated numbers inside individual files.',
-    intervention: 'Built a structured allocation model based on agent performance quartiles and shift schedules. Consolidated audit findings by line of business to highlight systemic trends, identified specific agent behaviours driving non-compliance or high handle times, and created weekly executive decks with root-cause analysis and proposed action plans.',
-    outcome: 'QA coverage was balanced across 444 active agents, 16 QAs, and three lines of business. During the supported improvement period, empathy non-compliance moved from 60% to 45% in three weeks and average handling time moved from 685 to 618 seconds. Leaders received a direct path from QA findings to coaching, training, and Operations action.'
+    title: 'Managing QA coverage and turning campaign findings into operational action',
+    summary: 'I led analysts, designed campaign coverage, and translated collective findings into decisions for clients and Operations leaders.',
+    situation: 'The campaign covered hundreds of agents across three lines of business, different working shifts, and varying performance levels. Applying the same QA effort to every agent would have under-supported higher-risk performers and created uneven analyst workloads. Leaders also needed more than scorecards: they needed to know which behaviours were driving results and what should happen next.',
+    intervention: 'I directly led 10 quality analysts and separately supported approximately 25 agents. I designed and managed the allocation model across 16 QAs and 444 active agents, balancing assignments by performance quartile, required audit and coaching frequency, line of business, and shift compatibility. I consolidated QA findings, identified recurring behaviours, built weekly business review decks, and presented proposed solutions to clients, directors, Operations Managers, and Team Leaders.',
+    outcome: 'The campaign gained a structured way to direct QA capacity toward the agents who needed it most while maintaining balanced analyst workloads. During the supported improvement period, empathy non-compliance decreased from 60% to 45% in three weeks and average handling time decreased from 685 to 618 seconds. External evaluators also placed my coaching quality in Q1, the highest QA-of-QA tier.'
   },
   {
     slug: 'ecommerce-profit-intelligence',
     industry: 'DTC e-commerce business',
     heading: 'Profit and Stock Intelligence',
-    title: 'Delivering a working view of profit, margin, stock, and reorder risk',
-    summary: 'A working profit and stock model so margin, inventory, and replenishment decisions come from one operating view.',
+    title: 'Rebuilding the data flow behind profit, inventory, and reorder decisions',
+    summary: 'I corrected the transaction source and delivered a working decision system for margin, stock health, and replenishment.',
     situation: 'Order, product, cost, and inventory data were fragmented, making daily profitability, stock-depletion, and replenishment decisions harder to support from one view. An initial data-source mismatch also produced incomplete or inaccurate transaction reporting.',
     intervention: 'Replaced the prior source with the Transaction Details API and reprocessed historical transactions. Built formula-driven calculations for current stock, stock value, 7-day sales velocity, days to stockout, projected stockout date, and reorder dates with urgency indicators. Mapped product variants and SKUs to overarching product families.',
-    outcome: 'The client gained a live operating view of profitability, stock health, and reorder urgency built on one defined transaction source. Product mappings and stockout indicators made daily commercial and inventory decisions easier to investigate without reconciling disconnected exports.'
+    outcome: 'The client gained a working operating view of profitability, stock health, and reorder urgency built on one defined transaction source. The system was delivered and used in the business, allowing commercial and inventory questions to be investigated without reconciling disconnected exports.'
   },
   {
     slug: 'construction-materials-finance',
     industry: 'Insulation and construction materials e-commerce business',
     heading: 'Finance Operations',
-    title: 'Building the finance operation across two businesses',
-    summary: 'A functioning finance operation across two businesses so invoices, payments, card spend, and supplier orders remain traceable.',
+    title: 'Establishing the finance operation across two related businesses',
+    summary: 'I built both QuickBooks environments, led the finance team, and introduced the controls connecting invoices, payments, card spend, and supplier orders.',
     situation: 'Two related e-commerce entities needed their QuickBooks Online environments established and their daily transaction work controlled. Invoices, payments, credit-card spend, supplier orders, credits, and adjustments needed traceability.',
-    intervention: 'Built both QBO instances from scratch and established standardised procedures for invoicing, payment posting, and card matching. Created a matching ledger linking credit card charges to order numbers, purchase dates, statuses, delivery addresses, gross amounts, credits, and net totals. Applied exact-amount and charge-plus-credit matching to surface unmatched charges, credits, and order differences.',
+    intervention: 'I built both QuickBooks Online environments from scratch, including their foundational records, templates, accounts, inventory configuration, and access controls. I led and trained a three-person finance team, assigned responsibilities across invoicing and transaction review, and retained oversight of exceptions. I also created a matching ledger connecting card charges to supplier orders and credits.',
     outcome: 'Both businesses moved into functioning QuickBooks Online environments with a trained three-person finance team and repeatable invoicing, payment-posting, and matching routines. Charges and supplier orders became easier to trace, while unmatched items surfaced as exceptions for investigation.'
   }
 ];
@@ -74,12 +74,12 @@ const additionalBuilds = [
     outcome: 'The public chatbot could query the prepared knowledge base without rerunning ingestion steps or exposing credentials. The separation also made the runtime easier to troubleshoot and maintain.'
   },
   {
-    slug: 'movemate-estimator', industry: 'Moving operations concept', heading: 'Moving Estimate Data',
-    title: 'Turning household items into operational estimate data',
-    summary: 'Designed a concept and application architecture that translates visual or listed household items into cubic volume, weight, and mover requirements for more precise inventory preparation.',
+    slug: 'movemate-estimator', industry: 'Working AI prototype', heading: 'AI Moving Inventory',
+    title: 'Turning uploaded images into structured moving estimates',
+    summary: 'I built a working prototype that identifies household items from uploaded images and produces usable inventory, volume, weight, and move information.',
     situation: 'Moving estimates often begin with incomplete written inventories or unstructured customer photos, leaving estimators to reconstruct the useful data manually.',
-    intervention: 'Defined a reviewable workflow that maps detected or listed household items to moving inventory data while preserving uncertainty for human confirmation.',
-    outcome: 'The concept translated customer-provided household items into structured moving data for estimator review, giving teams a clearer starting point for volume, weight, and mover requirements while keeping uncertain items visible for confirmation.'
+    intervention: 'I built an image-to-inventory workflow that identifies visible household items, groups quantities, estimates cubic volume and weight, and connects the output with the customer and move details for human review.',
+    outcome: 'The working prototype successfully produced a structured inventory summary from uploaded images. In the demonstrated output, it identified 10 items with an estimated total volume of 76 cubic feet and total weight of 532 pounds, giving the moving team a practical starting point for reviewing the inventory and preparing the job.'
   }
 ];
 const allCases = [...cases, ...additionalBuilds];
@@ -157,26 +157,33 @@ function caseBody(item) {
 const roles = [
   {
     industry: 'Moving company', title: 'VA Manager', dates: 'March 2026 to present',
-    description: 'I lead the virtual assistant team and coordinate day-to-day moving operations. The team operates on defined roles and duties. Adherence is monitored, and only urgent or ad hoc tasks are delegated, rather than assigning daily workloads manually. Because I previously worked inside the same operation, I connect team management with operational details across leads, estimates, inventories, CRM records, bookings, and field issues.',
-    ownership: 'Team coordination, role adherence, ad hoc delegation, completion monitoring, individual coaching, dispute and claims resolution, SOPs, Loom training, and sales/customer communication.',
-    evidence: ['During the current engagement, I personally booked 148 jobs with a combined booked job value of $196,000 and personally resolved 38 escalated customer claims tickets.'], caseSlug: 'moving-company-operations'
+    description: 'I lead the virtual assistant team and connect staff performance with the sales, booking, customer, and field workflows behind each move. I progressed into this role after working in Operations Support at the same company from March to November 2025, so I manage the team with direct knowledge of the work they perform.',
+    ownership: 'Role adherence, work-completion monitoring, urgent delegation, individual coaching, staff training, SOPs, Loom guides, sales and customer communication, and ownership of damage claims, billing disputes, and other escalated customer matters.',
+    results: ['Personally booked 148 jobs with a combined booked job value of $196,000.', 'Personally resolved 38 escalated customer claims.', 'Turned recurring operating issues into practical training and documented procedures for the team.'], caseSlug: 'moving-company-operations'
   },
   {
     industry: 'Accounting firm', title: 'Practice Manager', dates: 'February 2026 to present',
-    description: 'I own the post-preparation compliance workflow after accountants complete technical work, including client execution, payment readiness, lodgement administration, and ASIC or company administration. I coordinate client signing via Adobe Sign, billing and payment checks, XPM and Xero Tax status controls, ATO lodgement administration, accountant work-allocation tracking, collections, ASIC administration, and workflow exceptions. I also support WordPress operations, including research, SEO fields, publishing, and image metadata.',
-    ownership: 'Post-preparation workflow control, Adobe Sign preparation and tracking, payment readiness, ATO lodgement administration, accountant billing sheets, company registrations, ASIC form administration, and central audit management.',
-    evidence: ['Maintained a central Lodgement Audit and Tracking view covering 1,350 workflow records. The view recorded 1,072 lodged files, 88 completed files, and 88 draft or in-progress files. It also recorded 85 files out to sign and 124 unpaid files, with 72 appearing in both categories.', 'Tracked 335 files sent for signing and logged 420 Adobe Sign “Signed and Filed” confirmations.', 'Coordinated approximately 1,873 outgoing messages across lodgement, signing, billing, ASIC, collections, and client workflows.', 'Coordinated at least 17 successful company registrations and 5 signed voluntary company deregistrations.'], caseSlug: 'accounting-firm-workflow'
+    description: 'I designed the combined job-workflow system that gives the practice one shared view of staff work queues, allocation, completed work, onboarding, bookkeeping, BAS, IAS, billing, lodgement, client updates, and ASIC administration. I also run the daily controls that move work from accountant preparation through signing, payment, lodgement, and completion.',
+    ownership: 'Practice workflow design, staff work visibility, Adobe Sign coordination, payment readiness, ATO lodgement administration, three individual billing-control views, company registrations, ASIC administration, client follow-up, and workflow-exception management.',
+    resultsLead: 'Within the tax-form control process:',
+    results: ['1,350 tax-form and compliance records tracked, including 1,072 lodged records.', '335 signing packages coordinated and 420 signed-and-filed confirmations recorded.', '17 successful company registrations coordinated since February 2026.', 'Separate work queues replaced by a combined operating view that lets the team see responsibility, status, and outstanding action in one place.'], caseSlug: 'accounting-firm-workflow'
+  },
+  {
+    industry: 'DTC e-commerce business', title: 'Profit and Inventory Systems Project', dates: 'January 2026',
+    description: 'I rebuilt the data flow behind a working profit and stock tracker after identifying that the original transaction source was not suitable for the required reporting. I changed the API source, reprocessed historical activity from 27 December, and connected product, cost, sales, and stock data into one operating view.',
+    ownership: 'Transaction-source correction, historical reprocessing, performance reporting, profit and margin calculations, product mapping, inventory depletion and cost of goods sold, stockout forecasting, and reorder controls.',
+    results: ['Delivered a working tracker that the client used for profit, stock-health, and replenishment decisions.', 'Created a single view for investigating margin, sales velocity, projected stockout dates, and reorder urgency.'], caseSlug: 'ecommerce-profit-intelligence'
   },
   {
     industry: 'Insulation and construction materials e-commerce business', title: 'Head of Finance Department / Finance Operations Lead', dates: 'January 2026 to June 2026',
     description: 'I led a three-person finance function across two related businesses. I set up both companies in QuickBooks Online from scratch, configured delivery-address sales tax rules, created and sent customer invoices, and managed payment posting, expense tracking, and reconciliation support. I also built a matching ledger connecting card activity to order records so missing or conflicting transactions could be identified.',
     ownership: 'Multi-company QBO setup, finance team leadership, customer invoicing, order-to-spend matching, multi-card reconciliation controls, and quality review.',
-    evidence: ['Built a matching process that recorded 59 matched transactions and 54 matched orders during the reviewed period, while surfacing unmatched charges and credits for follow-up.', 'Established repeatable customer invoicing across insulation and drywall products, including shipping, delivery-address sales tax, payment terms, and instructions.'], caseSlug: 'construction-materials-finance'
+    results: ['Built a matching process that recorded 59 matched transactions and 54 matched orders during the reviewed period, while surfacing unmatched charges and credits for follow-up.', 'Established functioning QuickBooks environments and repeatable invoicing, payment-posting, and matching routines across both businesses.'], caseSlug: 'construction-materials-finance'
   },
   {
-    industry: 'AI data annotation provider', title: 'Freelance AI Data Annotation Support', dates: 'January 2026 to April 2026',
-    description: 'I reviewed structured vehicle-damage records containing license plates, vehicle parts, damage classifications, timestamps, and reviewer notes. The work required consistent interpretation, detailed record review, and compliance with remote security and output-quality protocols.',
-    ownership: 'Structured record review, damage classification consistency, and quality control.'
+    industry: 'AI data annotation provider', title: 'AI Data Annotation Specialist', dates: 'January 2026 to April 2026',
+    description: 'I reviewed structured vehicle-damage records and applied consistent judgement across vehicle parts, damage classifications, timestamps, and reviewer notes. The role required sustained accuracy, careful interpretation, and disciplined handling of detailed records in a secure remote environment.',
+    ownership: 'Structured record review, damage-classification consistency, exception identification, data quality, and secure handling protocols.'
   },
   {
     industry: 'Moving company', title: 'Admin Assistant / Operations Support', dates: 'March 2025 to November 2025',
@@ -184,20 +191,20 @@ const roles = [
     ownership: 'Lead and booking flow, CRM accuracy, quote calculations, dispute handling, phone routing, AI configuration, and operational reporting.'
   },
   {
-    industry: 'Remote executive support', title: 'Part-Time Executive Assistant', dates: 'January 2025 to August 2025',
-    description: 'I provided remote administration, document organisation, tracker maintenance, written coordination, operational notes, and dependable follow-through on assigned tasks.',
-    ownership: 'Task follow-up, document organisation, tracking, and task completion.'
+    industry: 'Remote executive support', title: 'Executive Assistant', dates: 'January 2025 to August 2025',
+    description: 'I kept executive support work organised across documents, trackers, written coordination, operational notes, and follow-up. My role was to turn assigned priorities into completed work without requiring constant checking.',
+    ownership: 'Executive task follow-through, document organisation, tracker maintenance, written coordination, and completion control.'
   },
   {
     industry: 'BPO', title: 'Lead Quality Analyst', dates: 'July 2023 to January 2025',
     description: 'I directly led 10 quality analysts and separately supported a personal portfolio of approximately 25 agents through audits, coaching, and performance review. I designed and maintained the campaign-wide allocation covering 16 QAs, three lines of business, and 444 active agents in November 2024. Workloads were balanced by performance quartile, with QA schedules aligned to agent shifts. I consolidated QA findings by line of business, identified underlying agent behaviours, built weekly business review decks, and presented root-cause analyses and action plans to clients, directors, Operations Managers, and Team Leaders.',
     ownership: 'People leadership, campaign workload allocation, audit and coaching coverage, calibration, performance analysis, and executive stakeholder briefing.',
-    evidence: ['Empathy non-compliance reduced from 60% to 45% over three weeks during the supported improvement period.', 'Average Handling Time decreased from 685 seconds to 618 seconds during the supported improvement period.', 'Scored in Q1, the highest tier, by external evaluators for QA-of-QA coaching quality.', 'Recognised as Top QA in May 2024 and September 2024.'], caseSlug: 'bpo-quality-improvement'
+    results: ['Empathy non-compliance reduced from 60% to 45% over three weeks during the supported improvement period.', 'Average handling time decreased from 685 to 618 seconds during the supported improvement period.', 'External QA-of-QA evaluators placed my coaching quality in Q1, the highest tier.', 'Recognised as Top QA in May 2024 and September 2024.'], caseSlug: 'bpo-quality-improvement'
   }
 ];
 
 function experienceBody() {
-  return `${pageHero('Experience', 'From frontline execution to operational leadership.', 'My work progressed through customer operations, quality leadership, finance operations, practice management, and remote team management. Across each role, I improved how work was assigned, performed, checked, and completed.')}<section class="section-pad"><div class="shell timeline">${roles.map(role => `<article><div class="timeline-date">${role.dates}</div><div class="timeline-marker" aria-hidden="true"></div><div class="timeline-body"><p class="eyebrow">${role.industry}</p><h2>${role.title}</h2><p>${role.description}</p><h3>Core ownership</h3><p>${role.ownership}</p>${role.evidence ? `<h3>Results</h3><ul class="plain-list">${role.evidence.map(item => `<li>${item}</li>`).join('')}</ul>` : ''}${role.caseSlug ? `<a class="text-link" href="${href(`case-studies/${role.caseSlug}/`)}">Read the related case study ${icon('arrow')}</a>` : ''}</div></article>`).join('')}</div></section><section class="experience-bridge section-pad"><div class="shell"><p class="eyebrow">Earlier customer operations foundation</p><h2>Frontline work taught me where procedures break in real use.</h2><p>Before moving into quality and operations leadership, I worked across several frontline customer-support and subject matter expert roles in the BPO industry. At one employer, I was promoted to SME within two weeks of entering production and supported demo calls, side-barging, procedure clarification, and supervisor escalations. At another, I created client-approved email templates and macros adopted across the wider agent workflow.</p></div></section>${cta('Need a manager who understands the work from the frontline upward?')}`;
+  return `${pageHero('Experience', 'I lead the work and improve the system around it.', 'My experience spans team management, practice operations, finance controls, quality leadership, customer operations, and working data systems. The common thread is ownership: making responsibility clear, keeping work visible, and improving how the team performs.')}<section class="section-pad"><div class="shell timeline">${roles.map(role => `<article><div class="timeline-date">${role.dates}</div><div class="timeline-marker" aria-hidden="true"></div><div class="timeline-body"><p class="eyebrow">${role.industry}</p><h2>${role.title}</h2><p>${role.description}</p><h3>Core ownership</h3><p>${role.ownership}</p>${role.results ? `<h3>Results</h3>${role.resultsLead ? `<p class="results-lead">${role.resultsLead}</p>` : ''}<ul class="plain-list">${role.results.map(item => `<li>${item}</li>`).join('')}</ul>` : ''}${role.caseSlug ? `<a class="text-link" href="${href(`case-studies/${role.caseSlug}/`)}">Read the related case study ${icon('arrow')}</a>` : ''}</div></article>`).join('')}</div></section><section class="experience-bridge section-pad"><div class="shell"><p class="eyebrow">Earlier customer operations foundation</p><h2>Frontline work taught me where procedures break in real use.</h2><p>Before moving into quality and operations leadership, I worked across several frontline customer-support and subject matter expert roles in the BPO industry. At one employer, I was promoted to SME within two weeks of entering production and supported demo calls, side-barging, procedure clarification, and supervisor escalations. At another, I created client-approved email templates and macros adopted across the wider agent workflow.</p></div></section>${cta('Need a manager who understands the work from the frontline upward?')}`;
 }
 
 function aboutBody() {
