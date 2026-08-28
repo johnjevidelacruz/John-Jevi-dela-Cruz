@@ -1,145 +1,22 @@
 :root[data-theme="light"] {
-  --text-50: #f6f0ee;
-  --text-100: #ede0de;
-  --text-200: #dbc2bd;
-  --text-300: #c9a39c;
-  --text-400: #b8857a;
-  --text-500: #a66659;
-  --text-600: #855247;
-  --text-700: #633d36;
-  --text-800: #422924;
-  --text-900: #211412;
-  --text-950: #110a09;
-  --background-50: #f9eeeb;
-  --background-100: #f4ddd7;
-  --background-200: #e9bbaf;
-  --background-300: #dd9988;
-  --background-400: #d27760;
-  --background-500: #c75538;
-  --background-600: #9f442d;
-  --background-700: #773322;
-  --background-800: #502216;
-  --background-900: #28110b;
-  --background-950: #140806;
-  --primary-50: #fbedea;
-  --primary-100: #f6dbd5;
-  --primary-200: #edb7ab;
-  --primary-300: #e49381;
-  --primary-400: #db6f57;
-  --primary-500: #d24b2d;
-  --primary-600: #a83c24;
-  --primary-700: #7e2d1b;
-  --primary-800: #541e12;
-  --primary-900: #2a0f09;
-  --primary-950: #150804;
-  --secondary-50: #fdece8;
-  --secondary-100: #fbd8d0;
-  --secondary-200: #f6b1a2;
-  --secondary-300: #f28a73;
-  --secondary-400: #ee6344;
-  --secondary-500: #e93c16;
-  --secondary-600: #bb3011;
-  --secondary-700: #8c240d;
-  --secondary-800: #5d1809;
-  --secondary-900: #2f0c04;
-  --secondary-950: #170602;
-  --accent-50: #ffeae5;
-  --accent-100: #ffd5cc;
-  --accent-200: #ffac99;
-  --accent-300: #ff8266;
-  --accent-400: #ff5833;
-  --accent-500: #ff2f00;
-  --accent-600: #cc2500;
-  --accent-700: #991c00;
-  --accent-800: #661300;
-  --accent-900: #330900;
-  --accent-950: #1a0500;
-  --canvas: var(--background-50);
-  --surface: var(--text-50);
-  --ink: var(--text-900);
-  --slate: var(--text-700);
-  --copper: var(--primary-600);
-  --copper-dark: var(--primary-700);
-  --blue-gray: var(--background-100);
-  --success: var(--text-600);
-  --error: var(--accent-700);
-  --line: var(--text-200);
+  --text: #0d0807;
+  --background: #fdf9f8;
+  --primary: #d6583b;
+  --secondary: #f49d89;
+  --accent: #ff6745;
+  --canvas: var(--background);
+  --surface: #ffffff;
+  --ink: var(--text);
+  --slate: color-mix(in srgb, var(--text) 72%, var(--background));
+  --copper: var(--primary);
+  --copper-dark: color-mix(in srgb, var(--primary) 74%, var(--text));
+  --blue-gray: color-mix(in srgb, var(--background) 84%, var(--secondary));
+  --success: color-mix(in srgb, var(--text) 72%, var(--primary));
+  --error: var(--accent);
+  --line: color-mix(in srgb, var(--text) 15%, var(--background));
   --serif: "Source Serif 4", Georgia, serif;
   --sans: "Source Sans 3", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --shadow: 0 18px 48px rgb(33 20 18 / 9%);
-  --radius: 0.75rem;
-  --shell: 74rem;
-}
-
-:root[data-theme="dark"] {
-  --text-50: #110a09;
-  --text-100: #211412;
-  --text-200: #422924;
-  --text-300: #633d36;
-  --text-400: #855247;
-  --text-500: #a66659;
-  --text-600: #b8857a;
-  --text-700: #c9a39c;
-  --text-800: #dbc2bd;
-  --text-900: #ede0de;
-  --text-950: #f6f0ee;
-  --background-50: #140805;
-  --background-100: #290f0a;
-  --background-200: #521f14;
-  --background-300: #7a2e1f;
-  --background-400: #a33d29;
-  --background-500: #cc4c33;
-  --background-600: #d6705c;
-  --background-700: #e09485;
-  --background-800: #ebb8ad;
-  --background-900: #f5dbd6;
-  --background-950: #faedeb;
-  --primary-50: #150804;
-  --primary-100: #2a0f09;
-  --primary-200: #541e12;
-  --primary-300: #7e2d1b;
-  --primary-400: #a83c24;
-  --primary-500: #d24b2d;
-  --primary-600: #db6f57;
-  --primary-700: #e49381;
-  --primary-800: #edb7ab;
-  --primary-900: #f6dbd5;
-  --primary-950: #fbedea;
-  --secondary-50: #170602;
-  --secondary-100: #2f0c04;
-  --secondary-200: #5d1809;
-  --secondary-300: #8c240d;
-  --secondary-400: #bb3011;
-  --secondary-500: #e93c16;
-  --secondary-600: #ee6344;
-  --secondary-700: #f28a73;
-  --secondary-800: #f6b1a2;
-  --secondary-900: #fbd8d0;
-  --secondary-950: #fdece8;
-  --accent-50: #1a0500;
-  --accent-100: #330900;
-  --accent-200: #661300;
-  --accent-300: #991c00;
-  --accent-400: #cc2500;
-  --accent-500: #ff2f00;
-  --accent-600: #ff5833;
-  --accent-700: #ff8266;
-  --accent-800: #ffac99;
-  --accent-900: #ffd5cc;
-  --accent-950: #ffeae5;
-  --canvas: var(--background-50);
-  --surface: var(--text-50);
-  --ink: var(--text-900);
-  --slate: var(--text-700);
-  --copper: var(--primary-600);
-  --copper-dark: var(--primary-700);
-  --blue-gray: var(--background-100);
-  --success: var(--text-600);
-  --error: var(--accent-700);
-  --line: var(--text-200);
-  --serif: "Source Serif 4", Georgia, serif;
-  --sans: "Source Sans 3", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --shadow: 0 18px 48px rgb(0 0 0 / 20%);
+  --shadow: 0 18px 48px rgb(13 8 7 / 9%);
   --radius: 0.75rem;
   --shell: 74rem;
 }
@@ -177,7 +54,7 @@ svg {
 
 a {
   color: var(--ink);
-  text-decoration-color: rgb(168 87 42 / 50%);
+  text-decoration-color: color-mix(in srgb, var(--primary) 50%, transparent);
   text-underline-offset: 0.2em;
 }
 
@@ -304,8 +181,8 @@ p + p {
   position: sticky;
   z-index: 100;
   top: 0;
-  border-bottom: 1px solid rgb(20 33 61 / 11%);
-  background: rgb(247 245 240 / 94%);
+  border-bottom: 1px solid var(--line);
+  background: color-mix(in srgb, var(--background) 94%, transparent);
   backdrop-filter: blur(16px);
 }
 
@@ -493,7 +370,7 @@ p + p {
   bottom: -14rem;
   width: 34rem;
   height: 34rem;
-  border: 1px solid rgb(168 87 42 / 20%);
+  border: 1px solid color-mix(in srgb, var(--primary) 25%, transparent);
   border-radius: 50%;
   content: "";
 }
@@ -534,7 +411,7 @@ p + p {
 }
 
 .operating-intro span {
-  color: #d8bdad;
+  color: var(--secondary);
   font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.14em;
@@ -965,7 +842,7 @@ p + p {
 
 .cta-band {
   background: var(--ink);
-  color: #d7dde4;
+  color: color-mix(in srgb, var(--background) 86%, var(--secondary));
 }
 
 .cta-band h2,
@@ -984,8 +861,8 @@ p + p {
 }
 
 .cta-grid .button:hover {
-  border-color: #e0c2b0;
-  background: #e0c2b0;
+  border-color: var(--secondary);
+  background: var(--secondary);
 }
 
 .page-hero,
@@ -1298,7 +1175,7 @@ p + p {
 .field textarea {
   width: 100%;
   padding: 0.8rem 0.9rem;
-  border: 1px solid #9ca8b1;
+  border: 1px solid color-mix(in srgb, var(--text) 38%, var(--background));
   border-radius: 0.35rem;
   background: var(--surface);
   color: var(--ink);
@@ -1312,7 +1189,7 @@ p + p {
 .field input:focus,
 .field textarea:focus {
   border-color: var(--copper);
-  outline: 3px solid rgb(168 87 42 / 22%);
+  outline: 3px solid color-mix(in srgb, var(--accent) 24%, transparent);
 }
 
 .field textarea {
@@ -1346,13 +1223,13 @@ p + p {
   margin-top: 1rem;
   padding: 0.8rem 1rem;
   border-left: 4px solid var(--success);
-  background: rgb(47 107 84 / 10%);
+  background: color-mix(in srgb, var(--secondary) 20%, var(--background));
   color: var(--ink);
 }
 
 .form-status.is-error {
   border-left-color: var(--error);
-  background: rgb(155 28 28 / 8%);
+  background: color-mix(in srgb, var(--accent) 12%, var(--background));
 }
 
 .legal-copy section + section {
@@ -1372,8 +1249,8 @@ p + p {
 
 .site-footer {
   padding-top: 3rem;
-  background: #101c34;
-  color: #bfc7d1;
+  background: var(--text);
+  color: color-mix(in srgb, var(--background) 82%, var(--secondary));
 }
 
 .footer-grid {
@@ -1403,7 +1280,7 @@ p + p {
 }
 
 .site-footer a {
-  color: #e4e8ed;
+  color: var(--background);
 }
 
 .footer-base {
@@ -1412,7 +1289,7 @@ p + p {
   gap: 2rem;
   margin-top: 3.5rem;
   padding-block: 1.3rem;
-  border-top: 1px solid rgb(255 255 255 / 14%);
+  border-top: 1px solid color-mix(in srgb, var(--background) 18%, transparent);
   font-size: 0.8rem;
 }
 
@@ -1738,9 +1615,9 @@ p + p {
   padding: 0;
   border: 1px solid var(--line);
   border-radius: 50%;
-  background: rgb(255 255 255 / 92%);
+  background: color-mix(in srgb, var(--surface) 92%, transparent);
   color: var(--ink);
-  box-shadow: 0 8px 24px rgb(20 33 61 / 12%);
+  box-shadow: 0 8px 24px color-mix(in srgb, var(--text) 12%, transparent);
   transform: translateY(-50%);
   cursor: pointer;
 }
@@ -1956,7 +1833,7 @@ p + p {
 
 .about-hero {
   background: var(--ink);
-  color: #d7dde4;
+  color: color-mix(in srgb, var(--background) 86%, var(--secondary));
 }
 
 .about-hero h1,
@@ -1970,7 +1847,7 @@ p + p {
 }
 
 .about-hero .lede {
-  color: #d7dde4;
+  color: color-mix(in srgb, var(--background) 86%, var(--secondary));
 }
 
 .about-balance {
@@ -2250,7 +2127,7 @@ p + p {
 .case-hero,
 .contact-hero,
 .not-found {
-  background: linear-gradient(140deg, var(--canvas), var(--primary-50));
+  background: linear-gradient(140deg, var(--canvas), color-mix(in srgb, var(--background) 82%, var(--secondary)));
 }
 
 .page-hero h1,
@@ -2284,7 +2161,7 @@ p + p {
 .selected-work,
 .fit-section,
 .experience-bridge {
-  background: var(--background-100);
+  background: color-mix(in srgb, var(--background) 84%, var(--secondary));
 }
 
 .timeline > article {
@@ -2339,16 +2216,16 @@ p + p {
 }
 
 .button {
-  background: var(--primary-700);
+  background: var(--primary);
 }
 
 .button:hover {
-  background: var(--primary-800);
+  background: color-mix(in srgb, var(--primary) 78%, var(--text));
 }
 
 .carousel-indicators button:hover,
 .carousel-indicators button.is-active {
-  background: var(--primary-700);
+  background: var(--accent);
 }
 
 @media (max-width: 50rem) {
